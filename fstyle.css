@@ -1,0 +1,93 @@
+body{
+    background-color: #D071f9;
+    padding: 10px;
+   
+}
+.container{
+    
+    max-width: 500px;
+    width: 450px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.title{
+    color: blue;
+   font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form{
+    width: 100%;
+}
+
+.input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.input_field lable{
+    width: 150px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.input_field input,
+.input_field textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #D071f9;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.input_field input:hover{
+    border: 1px solid gold;
+}
+
+.input_field textarea:hover{
+    border: 1px solid gold;
+}
+
+.input_field_terms p{
+    font-size: 15px;
+}
+.check{
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+.btn{
+    padding: 8px 10px;
+    background-color: #D071f9;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+
+@media (max-width: 450px)
+{   .input_field
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .input_field lable
+    {
+        margin-bottom: 5px;
+    }
+
+
+}
+
