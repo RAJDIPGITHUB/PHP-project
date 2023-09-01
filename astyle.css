@@ -1,0 +1,102 @@
+body{
+    background-color: aqua;
+    height: 110vh;
+    margin: 0;
+}
+.image{
+    background-image: url(../proimg/aplant.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    
+    padding: 20px;
+    position: relative;
+    top: 0;
+    
+}
+
+.logobox{
+   
+    display: inline-block;
+    width: 240px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.navbox{
+   
+    width: 600px;
+    position: relative;
+    left: 1000px;
+    display: inline-block;
+}
+.navbox>a{
+    color: blue;
+    margin: 10px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navbox>a:hover{
+    color: red;
+}
+
+.info{
+    color: blue;
+    font-size: 50px;
+    position: relative;
+    left: 30px;
+}
+
+.info+p{
+    color: black;
+    font-size: 20px;
+    font-weight: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1200px;
+    position: relative;
+    left: 40px;
+    word-spacing: 4px;
+}
+
+.info+p+h2{
+    color: rgb(133, 22, 133);
+    font-size: 50px;
+    position: relative;
+    left: 500px;
+}
+.info+p+h2+p{
+    color: black;
+    font-size: 20px;
+    font-weight: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1300px;
+    position: relative;
+    left: 40px;
+    word-spacing: 4px;
+}
+
+.info+p+h2+p+h2{
+    color: rgb(133, 22, 133);
+    font-size: 50px;
+    position: relative;
+    left: 500px;
+}
+
+.ima{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+}
+
+.des{
+    width: 200px;
+    position: absolute;
+    left: 600px;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 200;
+}
